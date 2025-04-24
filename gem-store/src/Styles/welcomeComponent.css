@@ -1,0 +1,42 @@
+.welcome-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url(../Images/image\ 45.png);
+  background-size: cover;
+  height: 100vh;
+}
+
+.welcome-text {
+  text-align: center;
+  margin-top: 370px;
+}
+
+.welcome-text h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.welcome-text p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: whitesmoke;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 12px;
+}
+
+.get-started-button {
+  height: 50px;
+  width: 200px;
+  border-radius: 20px;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: gray;
+  margin-top: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
